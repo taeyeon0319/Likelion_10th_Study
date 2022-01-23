@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap'); /*구글 웹 폰트 입히기*/
+
+*{ /* *는 전체에 적용시킬 때 사용됨 */
+    font-family: 'Noto Sans KR', sans-serif;;
+}
+
+/*margin-상자 밖  border-테두리  padding-테두리와 내용 사이*/
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #282828; /*구글에 html color code검색하여 색 변경*/
+    border-bottom: 1px solid #ebebeb; /*border: 두께 방식 색깔   구글에 css border style검색하면 여러가지 테두리 나옴*/
+    margin-bottom: 16px;
+    padding-bottom: 5px;
+}
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    font-size: 12px;
+    padding: 20px;
+}
+
+.mainbox { /*클래스 꾸밀 때는 앞에 . 붙이기*/
+    border: 1px solid #ebebeb;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1); /*x축 y축 blur spread color*/
+}
+
+.name-text{
+    font-size: 16px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+.about-me-text{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.title-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #282828;
+    float: left;  /* 둥둥 떠다니는데 왼쪽에 붙어서 떠다님*/
+}
+
+.year-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #282828;
+    float: right;
+}
+
+.float-wrap{
+    overflow: hidden;   /*float로 떠있는 것들을 묶어서 다른 요소들과 겹치지 않도록 함*/
+}
+
+.desc-text{
+    font-size: 13px;
+}
+
+.desc-subtext{
+    font-size: 13px;
+    color: #282828;
+    padding-left: 16px;   /*들여쓰기한 것처럼*/
+}
+
+.title-box{
+    text-align: right;
+}
+
+.sns-img{
+    width: 20px;
+    height: 20px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
+
