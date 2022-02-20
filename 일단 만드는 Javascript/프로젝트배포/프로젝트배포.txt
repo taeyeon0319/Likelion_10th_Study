@@ -1,0 +1,15 @@
+<Github>
+: 원격저장소
+
+1. 시작하기 : git init
+2. 유저 이름 설정 : git config --global user.name "taeyeon0319"
+3. 이메일 등록 : git config --global user.email #####@gmail.com
+4. 파일 추가 : git add .
+5. 메세지 입력 : git commit -m "메시지 입력"
+6. 보낼 곳 등록 : git remote add origin https://github.com/taeyeon0319/~~
+7. 보낼 곳으로 코드 전송 : git push origin main
+
+
+
+<Deploy>
+netlify.com

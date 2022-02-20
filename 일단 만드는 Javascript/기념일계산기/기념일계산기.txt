@@ -1,0 +1,52 @@
+<객체(Object)알아보기>
+ex.
+<script>
+    var person = {
+        name: 'kimtaeyeon'
+        sayHello: function(){console.log('hello);}
+    }
+    console.log(person.name);     ===> 콘솔창에 kimtaeyeon출력
+    person.sayHello();            ===> 콘솔창에 hello출력
+
+    }
+</script>
+
+
+
+<date 객체>
+var 변수명 = new Date();  ==> 현재시각 기준 date객체 생성
+            now.getMonth();
+            now.getDate();
+            now.getTime();
+            등등등 (구글에 javascript Date검색)
+
+
+1. Date 객체 생성
+    var now = new Date();
+
+2. 연도를 가져오는 메서드 .getFullYear()
+    console.log(now.getFullYear());
+
+3. 월 정보를 가져오는 메서드 .getMonth()  {0: 1월, 1: 2월, ... 10: 11월, 11: 12월}  ==> 실제 월을 구하려면 +1 해줘야함.
+    console.log(now.getMonth());
+
+4. 일 정보를 가져오는 메서드 .getDate()
+    console.log(now.getDate());
+
+5. 1970년 1월 1일 00:00:00을 기준으로 흐른 시간을 밀리초로 표시하는 메서드 .getTime()
+    console.log(now.getTime());
+        
+6. 특정 일의 Date 객체 생성
+    var christmas = new Date('2020-12-25');
+    console.log(christmas);
+
+7. 특정 ms의 Date 객체 생성
+    var ms = new Date(1000);
+    consolr.log(ms);
+
+
+
+<시간계산기>
+만난 밀리초 = 오늘.getTime() - 사귄날.getTime()
+1000일의 밀리초 = 사귄날.getTime() + 999일의.getTime()
+1000일 = new Data(1000일의 밀리초)

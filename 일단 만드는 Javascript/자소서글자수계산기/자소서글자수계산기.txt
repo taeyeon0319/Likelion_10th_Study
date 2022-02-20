@@ -1,0 +1,14 @@
+<DOM>
+Document Object Model
+.getElementById('id이름').value; ==> 특정 id를 가진 html에 접근하여 값을 가져옴
+console.log();
+
+
+<이벤트>
+<textarea 이벤트=이벤트핸들링></textarea>
+
+
+<자바스크립트>
+.substring(0, 5) : 0이상 5미만까지만 나오고 나머지 잘림
+
+

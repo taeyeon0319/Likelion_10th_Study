@@ -1,0 +1,26 @@
+<JavaScript 사용방법>
+1. Html 파일
+<script>
+    document.write('어쩌구저쩌구')
+</script>
+
+2. JS 파일(.js)
+document.write('어쩌구저쩌구')    ===> myScript.js
+<script src="myScript.js"></script>   ===> html 파일에 js파일 연결하는 코드 작성
+
+
+
+<세미콜론(';')과 주석>
+js에서의 세미콜론 : 명령어의 끝을 알림
+주석 : 컴퓨터가 읽을 수 없는 글
+js에서의 주석 : //(한줄의 주석 작성) 또는 /* */ (여러줄의 주석 작성)
+
+
+<데이터 상자 만들기>
+var 변수명 = 값;
+
+문자열(String) : 따옴표로 감싼다.
+숫자(int, float) : 정수형(int), 실수형(float)
+불(bool) : 진실/거짓
+
+typeof 데이터  ===> 자료형 출력

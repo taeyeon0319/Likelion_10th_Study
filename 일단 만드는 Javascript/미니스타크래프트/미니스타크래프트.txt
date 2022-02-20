@@ -1,0 +1,22 @@
+<JQuery 장점>
+1. 간결한 문법
+2. 편리한 API
+3. 크로스 브라우징
+
+code.jquery.com 사이트 접속 -> 코드 복사 -> jquery 라이브러리 이용 가능
+
+$(선택자).행위;
+
+<익명함수>
+함수이름이 없는 것
+ex.
+$('#click).click(function(){
+    console.log('hello');
+});
+
+.fadeIn() ==> 나타나게 함
+.fadeOut() ==> 사라지게 함
+.animate(properties) ==> 이동시키기
+.css() ==> css변경됨
+
+콜백(callback) : 이게 종료된 다음에 시행된다.
