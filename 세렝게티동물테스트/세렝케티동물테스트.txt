@@ -1,0 +1,33 @@
+<개발환경세팅>
+1. 브라우저 : 크롬
+2. 코드에디터 : Visual Studio Code
+
+
+!누르고 tab누르면 html 기본골격 자동 세팅됨.
+link하고 css부분 누르면 css 자동 연결됨
+부트스트랩 : https://getbootstrap.com/
+
+Ctrl+/ : 주석처리
+
+var jsObject = {key : value}
+jsObject[key] ==> value값이 나옴
+
+
+<deploy>
+==> netlify로 배포하기
+사이트 이름 변경 가능
+
+
+<SNS공유기능만들기>
+addthis.com
+
+
+<광고 붙이기 - 수익화>
+1. 애드 네트워크
+- Google Adsense  
+- KaKao Adfit
+    : 로그인 -> 광고관리 -> 새 매체 -> 매체 등록(이름과 매체고유값에 사이트 URL넣기)
+      -> 코드 복붙 -> netlify에 업데이트(deploys란에 코드파일 넣기)
+
+2. 직접 광고 계약
+: 직접 광고 배너 넣기
